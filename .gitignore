@@ -1,0 +1,11 @@
+
+# This is created by the Umbraco package so we don't need to store it
+src/Umbraco/*
+
+# This contains all our custom code so we do need this
+!src/Umbraco/uSync
+
+# These are created by our install script so we don't need these either
+*.csproj
+*.sln
+*.json
