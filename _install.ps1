@@ -25,6 +25,7 @@ catch {
 
 Write-Host 'Finishing up' -ForegroundColor Green
 Remove-Item src/Umbraco/.gitignore
+Remove-Item README.md
 dotnet build src/Umbraco/Umbraco.csproj
 
 Write-Host 'Next steps:' -ForegroundColor Yellow
